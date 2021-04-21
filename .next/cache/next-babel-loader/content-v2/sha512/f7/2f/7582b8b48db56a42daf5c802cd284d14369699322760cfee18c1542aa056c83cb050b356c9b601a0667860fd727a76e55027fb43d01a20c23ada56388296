@@ -1,0 +1,1 @@
+{"ast":null,"code":"export function Player() {}","map":{"version":3,"sources":["/home/italo/Área de Trabalho/cursos/nlw#5/podcasternext/src/components/Player/index.tsx"],"names":["Player"],"mappings":"AAEA,OAAO,SAASA,MAAT,GAAkB,CAAE","sourcesContent":["import styles from \"./styles.module.scss\";\n\nexport function Player() {}\n"]},"metadata":{},"sourceType":"module"}
