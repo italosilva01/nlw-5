@@ -1,35 +1,38 @@
 {
   "polyfillFiles": [
-    "static/chunks/polyfills-aa54647e89713304033b.js"
+    "static/chunks/polyfills.js"
   ],
-  "devFiles": [],
-  "ampDevFiles": [],
+  "devFiles": [
+    "static/chunks/react-refresh.js"
+  ],
+  "ampDevFiles": [
+    "static/chunks/webpack.js",
+    "static/chunks/amp.js"
+  ],
   "lowPriorityFiles": [
-    "static/f9_80WlPNotS2xRcIQG3f/_buildManifest.js",
-    "static/f9_80WlPNotS2xRcIQG3f/_ssgManifest.js"
+    "static/development/_buildManifest.js",
+    "static/development/_ssgManifest.js"
   ],
   "pages": {
     "/": [
-      "static/chunks/webpack-50bee04d1dc61f8adf5b.js",
-      "static/chunks/framework.4b1beca48388539e3889.js",
-      "static/chunks/f6078781a05fe1bcb0902d23dbbb2662c8d200b3.d1ef51d23af4fa21d937.js",
-      "static/chunks/main-6330979cad0090465abb.js",
-      "static/chunks/pages/index-87c2672c61e15076ac9a.js"
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/index.js"
     ],
     "/_app": [
-      "static/chunks/webpack-50bee04d1dc61f8adf5b.js",
-      "static/chunks/framework.4b1beca48388539e3889.js",
-      "static/chunks/f6078781a05fe1bcb0902d23dbbb2662c8d200b3.d1ef51d23af4fa21d937.js",
-      "static/chunks/main-6330979cad0090465abb.js",
-      "static/css/f4ca184d1fa708cc4675.css",
-      "static/chunks/pages/_app-49c0a3709483af20c220.js"
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/_app.js"
     ],
     "/_error": [
-      "static/chunks/webpack-50bee04d1dc61f8adf5b.js",
-      "static/chunks/framework.4b1beca48388539e3889.js",
-      "static/chunks/f6078781a05fe1bcb0902d23dbbb2662c8d200b3.d1ef51d23af4fa21d937.js",
-      "static/chunks/main-6330979cad0090465abb.js",
-      "static/chunks/pages/_error-873525fd0b1b46a1ad1a.js"
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/_error.js"
+    ],
+    "/episodes/[slug]": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/episodes/[slug].js"
     ]
   },
   "ampFirstPages": []
