@@ -38,7 +38,7 @@ yarn dev
 ## Images
 
 ### homepage
-
+![homepage](https://github.com/italosilva01/nlw-5/blob/main/public/images/homepage.png)
 ### feed
-
+![feed](https://github.com/italosilva01/nlw-5/blob/main/public/images/feed.png)
 always on the way to the next level :heart:
