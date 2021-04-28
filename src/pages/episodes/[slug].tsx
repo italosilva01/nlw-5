@@ -4,7 +4,10 @@ import { api } from "../../services";
 import { format, parseISO } from "date-fns";
 import ptBR from "date-fns/locale/pt-BR";
 import { convertDurationToTimeString } from "../../utils/ConvertDurationToTimeString";
+import Image from "next/image";
+import Link from "next/link";
 
+import styles from "./episode.module.scss";
 interface Episode {
   id: string;
   title: string;
@@ -17,14 +20,45 @@ interface Episode {
   publishedAt: string;
 }
 
-interface EpisodesProps {
+interface EpisodeProps {
   episode: Episode;
 }
 
-export default function Episode({ episode }: EpisodesProps) {
-  const router = useRouter();
+export default function Episode({ episode }: EpisodeProps) {
+  return (
+    <div className={styles.episode}>
+      <div className={styles.thumbnailContainer}>
+        <Link href="/">
+          <button type="button">
+            <img src="/arrow-left.svg" alt="Voltar" />
+          </button>
+        </Link>
 
-  return <h1>{episode.title}</h1>;
+        <Image
+          width={700}
+          height={160}
+          src={episode.thumbnail}
+          objectFit="cover"
+        />
+
+        <button type="button">
+          <img src="/play.svg" alt={`Tocar episodio ${episode.title}`} />
+        </button>
+      </div>
+
+      <header>
+        <h1>{episode.title}</h1>
+        <span>{episode.members}</span>
+        <span>{episode.publishedAt}</span>
+        <span>{episode.durationAsString}</span>
+      </header>
+
+      <div
+        className={styles.description}
+        dangerouslySetInnerHTML={{ __html: episode.description }}
+      />
+    </div>
+  );
 }
 
 export const getStaticPaths: GetStaticPaths = async () => {
@@ -36,7 +70,6 @@ export const getStaticPaths: GetStaticPaths = async () => {
 
 export const getStaticProps: GetStaticProps = async (ctx) => {
   const { slug } = ctx.params;
-
   const { data } = await api.get(`/episodes/${slug}`);
 
   const episode = {
@@ -54,7 +87,7 @@ export const getStaticProps: GetStaticProps = async (ctx) => {
   };
 
   return {
-    props: {},
+    props: { episode },
     revalidate: 60 * 60 * 24, // 24 hours
   };
 };

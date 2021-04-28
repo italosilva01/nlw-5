@@ -5,7 +5,7 @@ import Document, { Html, Head, NextScript, Main } from "next/document";
 export default class myDocument extends Document {
   render() {
     return (
-      <Head>
+      <Html>
         <Head>
           <link rel="preconnect" href="https://fonts.gstatic.com" />
           <link
@@ -17,7 +17,7 @@ export default class myDocument extends Document {
           <Main />
           <NextScript />
         </body>
-      </Head>
+      </Html>
     );
   }
 }

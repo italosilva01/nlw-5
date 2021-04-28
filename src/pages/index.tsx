@@ -3,7 +3,6 @@ import ptBR from "date-fns/locale/pt-BR";
 import Image from "next/image";
 import Link from "next/link";
 
-import { Header } from "../components/Header";
 import { GetStaticProps } from "next";
 import { api } from "../services";
 import { convertDurationToTimeString } from "../utils/ConvertDurationToTimeString";
