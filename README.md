@@ -26,6 +26,10 @@ yarn
 ### Run project
 
 ```
+yarn server
+```
+and in another terminal
+```
 yarn dev
 ```
 
