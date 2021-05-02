@@ -40,6 +40,7 @@ yarn dev
 ### homepage
 
 ![homepage](https://github.com/italosilva01/nlw-5/blob/main/public/images/homepage.png)
+<br>
 !.[](https://github.com/italosilva01/nlw-5/blob/main/public/images/Captura%20de%20tela%20de%202021-05-02%2011-25-51.png)
 
 ### feed
