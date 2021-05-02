@@ -40,9 +40,13 @@ yarn dev
 ### homepage
 
 ![homepage](https://github.com/italosilva01/nlw-5/blob/main/public/images/homepage.png)
+!.[](https://github.com/italosilva01/nlw-5/blob/main/public/images/Captura%20de%20tela%20de%202021-05-02%2011-25-51.png)
 
 ### feed
 
 ![feed](https://github.com/italosilva01/nlw-5/blob/main/public/images/feed.png)
+
+### single episode page
+![](https://github.com/italosilva01/nlw-5/blob/main/public/images/Captura%20de%20tela%20de%202021-05-02%2011-26-21.png)
 
 always on the way to the next level :heart:
