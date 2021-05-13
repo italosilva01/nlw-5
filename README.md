@@ -9,13 +9,13 @@
 <h1 align="center">Podcasternext</h1>
 
 <p align="center">
-  <img alt="Github top language" src="https://img.shields.io/github/languages/top/italosilva01/podcasternext?color=56BEB8">
+  <img alt="Github top language" src="https://img.shields.io/github/languages/top/italosilva01/nlw-5?color=red&logocolor-red">
 
-  <img alt="Github language count" src="https://img.shields.io/github/languages/count/italosilva01/podcasternext?color=56BEB8">
+  <img alt="Github language count" src="https://img.shields.io/github/languages/count/italosilva01/nlw-5?color=red&logoColor=red">
 
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/italosilva01/podcasternext?color=56BEB8">
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/italosilva01/nlw-5?color=red">
 
-  <img alt="License" src="https://img.shields.io/github/license/italosilva01/podcasternext?color=56BEB8">
+  <img alt="License" src="https://img.shields.io/github/license/italosilva01/nlw-5?color=red">
 
   <!-- <img alt="Github issues" src="https://img.shields.io/github/issues/italosilva01/podcasternext?color=56BEB8" /> -->
 
