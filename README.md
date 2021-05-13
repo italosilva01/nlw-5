@@ -46,7 +46,7 @@
 
 ## :dart: About
 
-Describe your project
+Application made in the nlw course # 5 of Rocketseat. The application simulates a feed of one, and only one, podcast program
 
 ## :sparkles: Features
 
