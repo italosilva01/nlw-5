@@ -1,5 +1,5 @@
 <div align="center" id="top"> 
-  <img src="./.github/app.gif" alt="Podcasternext" />
+  <img src="./.github/logo.svg" alt="Podcasternext" />
 
 &#xa0;
 
